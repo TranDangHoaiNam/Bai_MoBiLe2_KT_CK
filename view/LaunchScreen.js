@@ -8,7 +8,7 @@ const LaunchScreen = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigation.navigate("SignInScreen"); // Thay "NextScreen" bằng tên màn hình bạn muốn chuyển đến
-    }, 10000); // 10s
+    }, 1000); // 10s
 
     return () => clearTimeout(timer);
   }, [navigation]);
